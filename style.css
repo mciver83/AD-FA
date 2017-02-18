@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #f458AB;
+  padding: 15px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.navbar {
+  display: flex;
+  flex: 1.5;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.coolness-level {
+  font-size: 20px;
+}
+
+.item-container {
+  margin-bottom: 20px;
+}

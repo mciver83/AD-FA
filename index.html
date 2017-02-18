@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="aloha">
+  <head>
+    <meta charset="utf-8">
+    <title>random app</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>AD&FA</h1>
+      </div>
+      <div class="navbar">
+        <a ui-sref="animals">Animals</a>
+        <a ui-sref="dreams">Dreams</a>
+        <a ui-sref="activities">Fun Activities</a>
+      </div>
+    </header>
+    <ui-view>
+
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="/animals/animals.controller.js"></script>
+    <script type="text/javascript" src="/dreams/dreams.controller.js"></script>
+    <script type="text/javascript" src="/fun_activities/fun_activities.controller.js"></script>
+  </body>
+</html>
